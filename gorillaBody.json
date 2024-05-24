@@ -1,0 +1,10 @@
+{
+    "department":"It", 
+    "designation":"Support",
+    "employee":{
+        "firstName":"John ",
+        "lastName":"Doe",
+        "email":"example@doe.com"
+    }
+
+}

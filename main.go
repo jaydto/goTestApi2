@@ -1,13 +1,14 @@
 package main
 
-import (
-	// routingodefaults "github.com/jaydto/goTestApi2/routinGoDefaults"
-	routinggingonic "github.com/jaydto/goTestApi2/routingGinGonic"
-)
+import routinggorillamux "github.com/jaydto/goTestApi2/routingGorillaMux"
+
+// routingodefaults "github.com/jaydto/goTestApi2/routinGoDefaults"
+// routinggingonic "github.com/jaydto/goTestApi2/routingGinGonic"
 
 func main() {
-	routinggingonic.Routing()
+	// routinggingonic.Routing()
 
 	// routingodefaults.RoutingGo()
+	routinggorillamux.GorillaMuxApiImplementation()
 
 }
